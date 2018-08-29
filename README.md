@@ -1,1 +1,1 @@
-# Highschool-Projects--Tim-Padjen
+# Highschool-Projects
