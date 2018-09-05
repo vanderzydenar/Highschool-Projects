@@ -1,22 +1,21 @@
 import java.util.Scanner;
 
-public class Ex4
+public class Ex1
 {  
   public static void main ( String[] args )  
   {
+    double price = 0;
 
     Scanner scan = new Scanner( System.in );
 
-    System.out.println("Voltage:");
+    System.out.println("Purchase Total Price:");
 
-    int V = scan.nextInt();
+    price = scan.nextInt();
 
-    System.out.println("Resistance:");
-
-    double R = scan.nextInt();
-
-    double I = (V + 0.0)/R;
-
-    System.out.println(I);
+    if(price > 100){
+        price = price - (price *.10);
+        System.out.println("New Price: "+price);
+    }
+        
   }
 }
